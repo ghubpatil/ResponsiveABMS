@@ -548,7 +548,7 @@ border: solid #C0C0C0 1px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: 1em;
+  /* font-size: 1em; */
 }
 
 .tabs-style-linetriangle nav li.tab-current a:after,
