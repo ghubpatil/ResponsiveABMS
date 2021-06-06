@@ -1,0 +1,447 @@
+
+.carousel-caption1 {
+  font-size: 12px;
+  font-style: italic;
+  width: 300px;
+  height: auto;
+position: absolute;
+bottom: 50px;
+left: 10px;
+z-index: 10;
+padding-top: 20px;
+padding-bottom: 40px;
+color: #fff;
+text-align: center;
+text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  background-color: #000000a8;
+  font-weight: bold;
+  /* display: none;  remove comment to hide captions */
+}
+
+
+
+.carousel-caption1  h3{
+    
+  color: #fff;
+  font-size: 22px;
+  }
+
+.carousel-caption1 p{
+  color:white;
+  font-size: 18px;
+}
+.carousel-control {
+  text-shadow: 0;
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(#000000));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%) !important;
+}
+.carousel-control.right {
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(#000000));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+  .carousel-caption1{
+    font-size: 12px;
+    font-style: italic;
+    width: 20px;
+    height: 25px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: #000000a8;
+    font-weight: bold;
+  }
+}
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+  .carousel-caption1  h3{
+    
+  color: #fff;
+  font-size: 9px;
+  }
+}
+
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+  .carousel-caption1   p{
+    
+  color: #fff;
+  font-size: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 540px) {
+  .carousel-caption1{
+    font-size: 12px;
+    font-style: italic;
+    width: auto;
+    height: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: #000000a8;
+    font-weight: bold;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 570px) {
+  .carousel-caption1  h3{
+    
+    color: #fff;
+    font-size: 9px;
+    }
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 570px) {
+  .carousel-caption1   p{
+    
+    color: #fff;
+    font-size: 5px;
+    }
+  }
+
+
+
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+  .carousel-caption1{
+    font-size: 12px;
+    font-style: italic;
+    width: auto;
+    height: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: #000000a8;
+    font-weight: bold;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+  .carousel-caption1  h3{
+    
+    color: #fff;
+    font-size: 9px;
+    }
+  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+  .carousel-caption1   p{
+    
+    color: #fff;
+    font-size: 5px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (min-width: 700px) {
+  .carousel-caption1{
+    font-size: 12px;
+    font-style: italic;
+    width: 320px;
+    height: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: #000000a8;
+    font-weight: bold;
+  }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+
+  .carousel-caption1  h3{
+    
+    color: #fff;
+    font-size: 24px;
+    }
+  }
+
+
+  @media only screen and (min-width: 700px) {
+
+    .carousel-caption1   p{
+    
+      color: #fff;
+      font-size: 18px;
+      }
+    }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (min-width: 900px) {
+  .carousel-caption1{
+    font-size: 12px;
+    font-style: italic;
+    width: 320px;
+    height: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: #000000a8;
+    font-weight: bold;
+  }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) {
+
+  .carousel-caption1  h3{
+    
+    color: #fff;
+    font-size: 24px;
+    }
+  }
+
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 900px) {
+
+  .carousel-caption1   p{
+    
+    color: #fff;
+    font-size: 18px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-caption1{height: 190px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 360px) {
+  .item  img{height: 190px;}
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+  .item  img{height: 190px;}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 500px) {
+  .item  img{height: 190px;}
+}
+  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .item  img{height: 190px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .item  img{height: 190px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .item  img{height: 190px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .item  img{height: 190px;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .item  img{height: 560px;}
+}
