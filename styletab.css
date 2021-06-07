@@ -198,7 +198,7 @@ p {
 }
 .tabs {
 background: rgba(255, 255, 255, 0.4);;
-  position: relative;
+  position: sticky;
   overflow: hidden;
   margin: 0 auto;
   width: 100%;
