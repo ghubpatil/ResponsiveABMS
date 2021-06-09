@@ -32,7 +32,9 @@ body {
   color: #74777b;
   font-weight: 400;
   font-size: 1em;
-  font-family: "Raleway", Arial, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: "arial", Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -547,9 +549,23 @@ border: solid #C0C0C0 1px;
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
-  /* font-size: 1em; */
+  /* white-space: break-spaces; */
+   /* font-size: 1em; */
 }
+
+@media only screen and (max-width: 640px) {
+  
+.tabs-style-linetriangle nav a span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+  border:1px solid #74777b;
+   /* font-size: 1em; */
+}
+
+}
+
 
 .tabs-style-linetriangle nav li.tab-current a:after,
 .tabs-style-linetriangle nav li.tab-current a:before {

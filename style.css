@@ -197,7 +197,8 @@ main small {
 html, body {
   height: 100%;
   font-family: "arial", Arial, Helvetica, sans-serif;
-
+  max-width: 100%;
+    overflow-x: hidden;
 }
 
 a,
