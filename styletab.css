@@ -1,22 +1,5 @@
-@charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
 
-/** demo.scss */
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-  font-family: "codropsicons";
-  src: url("../fonts/codropsicons/codropsicons.eot");
-  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
-}
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 
 .clearfix:before, .clearfix:after {
   content: "";
@@ -548,6 +531,7 @@ border: solid #C0C0C0 1px;
 .tabs-style-linetriangle nav a span {
   display: block;
   overflow: hidden;
+  font-size: 20px;
   text-overflow: ellipsis;
   /* white-space: break-spaces; */
    /* font-size: 1em; */
@@ -558,6 +542,8 @@ border: solid #C0C0C0 1px;
 .tabs-style-linetriangle nav a span {
   display: block;
   overflow: hidden;
+  font-size: 12px;
+
   text-overflow: ellipsis;
   white-space: break-spaces;
   border:1px solid #74777b;
