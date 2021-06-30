@@ -152,7 +152,7 @@ p {
 }
 @media screen and (max-width: 30em) {
   .containertab > section {
-    padding: 3em 0;
+    padding:1em 0;
   }
 
   .codrops-header {
@@ -189,6 +189,13 @@ background: rgba(255, 255, 255, 0.4);;
   width: 100%;
   font-weight: 300;
   font-size: 1.25em;
+}
+
+@media only screen and (max-width: 640px) {
+  .tabs {
+    display: none;
+  }
+
 }
 
 /* Nav */
