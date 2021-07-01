@@ -345,7 +345,7 @@ border: solid #C0C0C0 1px;
 }
 
 .content-wrap section.content-current {
-  display: block;
+  display: flex;
 }
 
 .content-wrap section p {
