@@ -118,6 +118,10 @@ Main components
   }
 }
 
+
+
+
+
 .cd-logo {
   position: absolute;
   top: 14px;
@@ -364,10 +368,10 @@ Main components
   position: fixed;
   top: 0;
   right: 0;
-  height: 70%;
+  height: 71%;
   width: 290px;
   background: white;
-  overflow: auto;
+  overflow: visible;
   -webkit-overflow-scrolling: touch;
   z-index: 1;
   /* Force Hardware Acceleration in WebKit */
@@ -396,7 +400,7 @@ Main components
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  border-bottom: 1px solid #3a3f40;
+  /* border-bottom: 1px solid #3a3f40; */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);
@@ -442,11 +446,13 @@ Main components
 }
 .cd-primary-nav .cd-nav-gallery .cd-nav-item h6, .cd-primary-nav .cd-nav-icons .cd-nav-item h6 {
   overflow: hidden;
+  padding-top: 17px;
   text-overflow: ellipsis;
   text-align: center;
 }
 .cd-primary-nav .cd-nav-gallery .cd-nav-item {
   padding-left: 0px;
+  
 }
 .cd-primary-nav .cd-nav-gallery .cd-nav-item img {
   position: absolute;
@@ -514,6 +520,7 @@ Main components
   }
   .cd-primary-nav.nav-is-visible {
     visibility: visible;
+    overflow: scroll;
     -webkit-transition: visibility 0s 0s;
     -moz-transition: visibility 0s 0s;
     transition: visibility 0s 0s;
