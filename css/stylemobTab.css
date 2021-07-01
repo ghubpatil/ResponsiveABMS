@@ -32,7 +32,8 @@
 
   ul.tabsver {
 	margin: 0;
-	padding: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	float: left;
 	list-style: none;
 	height: 32px;
