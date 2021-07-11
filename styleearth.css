@@ -17,7 +17,7 @@
 
 .app {
   position: relative;
-  padding-left: 0.5em;
+  /* padding-left: 0.5em; */
   max-width: 1600px;
   padding-top: 20px;
   /* background: #acbbd7 100% linear-gradient(#6a696d 0%, #504949 50%, #acbbd7 50%, #acbbd7 100%); */
@@ -33,7 +33,7 @@
   background: lightgray;
 
   grid-column: 2;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/154571/bla.jpg");
+  background: url("img/off.jpg");
   background-size: cover;
   background-position: right center;
 }
@@ -117,10 +117,10 @@
 
   .app {
     display: grid;
-    margin: 3em auto;
+    /* margin: 3em auto; */
     grid-template-rows: 5em auto;
     grid-template-columns: 1.4fr 1fr;
-    padding-left: 2em;
+    /* padding-left: 2em; */
     background-size: auto;
   }
   .app::after {
