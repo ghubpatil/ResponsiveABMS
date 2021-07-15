@@ -178,7 +178,7 @@ anchors are inline so you need ot make them block to go full width
   .carousel-caption1{
     font-size: 12px;
     width: 100px;
-    height: 70px;
+    height: 180px;
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -236,7 +236,7 @@ anchors are inline so you need ot make them block to go full width
   .carousel-caption1{
     font-size: 12px;
     width: 300px;
-    height: 160px;
+    height: 180px;
   position: absolute;
   bottom: 40px;
   left: 10px;
