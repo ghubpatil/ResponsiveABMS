@@ -23,6 +23,10 @@ h6 {
   color: #000000;
 }
 
+h6{
+  text-align: justify;
+}
+
 a {
   color: #000000;
   transition: all .5s ease;
@@ -2023,3 +2027,4 @@ footer .credits {
     font-size: 1.3rem;
   }
 }
+

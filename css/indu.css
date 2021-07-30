@@ -9,7 +9,7 @@
 .left{
   position: relative;
   width: 100%;
-  height: 640px
+  height: 640px;
 }
 .img{
   position: relative;
@@ -165,32 +165,82 @@
 .right{
   width: 100%;
   height: 100vh;
-  /* background-color: #ff7080; */
   overflow-y:auto;
-
+padding-top: 400px;
 
 }
   }
   
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 667px) {
+ 
+  .right{
+    width: 100%;
+    height: 100vh;
+    overflow-y:auto;
+  padding-top: 450px;
   
-  @media only screen and (max-width: 640px) {
+  }
+    } 
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 731px) {
+ 
+  .right{
+    width: 100%;
+    height: 100vh;
+    overflow-y:auto;
+  padding-top: 440px;
+  
+  }
+    } 
+
+
+    
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 736px) {
+ 
+  .right{
+    width: 100%;
+    height: 100vh;
+    overflow-y:auto;
+  padding-top: 460px;
+  
+  }
+    } 
+  
+    @media only screen and (max-width: 812px) {
+ 
+      .right{
+        width: 100%;
+        height: 100vh;
+        overflow-y:auto;
+      padding-top: 100px;
+      
+      }
+        } 
+      
+
+  /* @media only screen and (max-width: 640px) {
    
 .right{
   width: 100%;
   height: 100vh;
-  /* background-color: #ff7080; */
-  padding-top: 300px;
+  padding-top: 400px;
   overflow-y:auto;
 
 
 }
-    }
+    } */
   
 
 
 
 
-    
+/*     
   
    
     @media only screen and (max-width: 812px) {
@@ -198,31 +248,29 @@
       .right{
         width: 100%;
         height: 100vh;
-        /* background-color: #ff7080; */
-        padding-top: 400px;
+        padding-top: 10px;
         overflow-y:auto;
       
       
       }
-          }
+          } */
         
         
 
   
-   
+/*    
           @media only screen and (max-width: 1024px) {
    
             .right{
               width: 100%;
               height: 100vh;
-              /* background-color: #ff7080; */
-              padding-top: 400px;
+              padding-top: 50px;
               overflow-y:auto;
             
             
             }
                 }
-              
+               */
               
 
 
@@ -243,6 +291,16 @@ scrollbar-width: none;  /* Firefox */
   padding: 5vw
 }
 
+/* 
+
+@media only screen and (max-width: 1280px) {
+
+  .blog{
+    animation: fade 0.7s ease-in;
+    padding: 20px;
+  }
+
+} */
 .blog p{
   /* margin: 3vh 0; */
   text-align: justify;
@@ -312,10 +370,10 @@ scrollbar-width: none;  /* Firefox */
 
 
 
-@media (max-width:769px){
+@media (max-width:768px){
   .blog{
     padding: 5rem 2rem;
-    padding-top: 20px;
+    padding-top: 400px;
   }
   .blog img{
     height: 50vw;
@@ -326,6 +384,12 @@ scrollbar-width: none;  /* Firefox */
 
 
 }
+
+
+
+
+
+
 @keyframes fade {
   from{
     transform: translateY(-50px);
@@ -335,4 +399,10 @@ scrollbar-width: none;  /* Firefox */
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+
+h5{
+  background-color: #DB251F;
+  color: white;
 }
