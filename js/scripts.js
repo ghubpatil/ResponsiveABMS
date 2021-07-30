@@ -54,3 +54,7 @@
     $(window).on('scroll', navbarCollapse);
 
 })(jQuery); // End of use strict
+
+
+
+

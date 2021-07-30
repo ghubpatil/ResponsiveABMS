@@ -51,6 +51,15 @@ jQuery(document).ready(function($){
 		$('.cd-overlay').removeClass('is-visible');
 	});
 
+	$('.what a').on('click', function(){
+		closeNav();
+		toggleSearch('close')
+		$('.what a').removeClass('is-visible');
+	});
+
+
+
+
 
 	//prevent default clicking on direct children of .cd-primary-nav 
 	$('.cd-primary-nav').children('.has-children').children('a').on('click', function(event){
@@ -82,6 +91,8 @@ jQuery(document).ready(function($){
 		$('.cd-main-header').removeClass('nav-is-visible');
 		$('.cd-primary-nav').removeClass('nav-is-visible');
 		$('.has-children ul').addClass('is-hidden');
+		$('.cd-primary-nav li').removeClass('nav-is-visible');
+
 		$('.has-children a').removeClass('selected');
 		$('.moves-out').removeClass('moves-out');
 		$('.cd-main-content').removeClass('nav-is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){

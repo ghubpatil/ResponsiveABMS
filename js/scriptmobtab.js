@@ -4,13 +4,13 @@
     $(".tab_content:first").show();
 
   /* if in tab mode */
-    $("ul.tabsver li").click(function() {
+    $("ul.tabs li").click(function() {
 		
       $(".tab_content").hide();
       var activeTab = $(this).attr("rel"); 
       $("#"+activeTab).fadeIn();		
 		
-      $("ul.tabsver li").removeClass("active");
+      $("ul.tabs li").removeClass("active");
       $(this).addClass("active");
 
 	  $(".tab_drawer_heading").removeClass("d_active");
